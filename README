@@ -2,7 +2,7 @@ Kalibrate, or kal, can scan for GSM base stations in a given frequency band and
 can use those GSM base stations to calculate the local oscillator frequency
 offset.
 
-See http://thre.at/kalibrate 
+./bootstrap && CXXFLAGS='-W -Wall -O3' ./configure && make
 
 Copyright (c) 2010, Joshua Lackey (jl@thre.at)
 
